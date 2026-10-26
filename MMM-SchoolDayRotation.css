@@ -1,0 +1,158 @@
+.MMM-SchoolDayRotation .sd-card {
+  display: inline-block;
+  min-width: 240px;
+  max-width: 320px;
+  padding: 14px 22px 16px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.07);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 24px;
+}
+
+.MMM-SchoolDayRotation .sd-label {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #999;
+}
+
+.MMM-SchoolDayRotation .sd-letter {
+  font-size: 120px;
+  line-height: 1.05;
+  font-weight: 600;
+  color: #fff;
+}
+
+.MMM-SchoolDayRotation .sd-special {
+  font-size: 28px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.MMM-SchoolDayRotation .sd-reminder {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #ffcc66;
+}
+
+.MMM-SchoolDayRotation .sd-tag {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #ff8a80;
+}
+
+.MMM-SchoolDayRotation .sd-off-title {
+  margin: 12px 0 4px;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.MMM-SchoolDayRotation .sd-next {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 18px;
+  color: #aaa;
+}
+
+.MMM-SchoolDayRotation .sd-msg {
+  font-size: 18px;
+  color: #ff8a80;
+}
+
+/* Standalone card details. */
+.MMM-SchoolDayRotation .sd-v1-columns {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+  gap: 0 !important;
+}
+.MMM-SchoolDayRotation .sd-v1-day {
+  min-width: 0 !important;
+  padding: 1px 7px !important;
+  text-align: center !important;
+}
+.MMM-SchoolDayRotation .sd-v1-day + .sd-v1-day {
+  border-left: 1px solid rgba(255, 255, 255, 0.24) !important;
+}
+.MMM-SchoolDayRotation .sd-v1-when {
+  color: rgba(229, 241, 255, 0.95) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  white-space: normal !important;
+}
+.MMM-SchoolDayRotation .sd-v1-letter {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 5px !important;
+  margin: 4px 0 1px !important;
+}
+.MMM-SchoolDayRotation .sd-v1-letter-text {
+  color: #4dc5ff !important;
+  font-size: clamp(40px, 3.3vw, 58px) !important;
+  font-weight: 750 !important;
+  line-height: 1 !important;
+}
+.MMM-SchoolDayRotation .sd-v1-next .sd-v1-letter-text {
+  color: #78eaa5 !important;
+}
+.MMM-SchoolDayRotation .sd-v1-emoji {
+  font-size: clamp(22px, 1.8vw, 30px) !important;
+  line-height: 1 !important;
+}
+.MMM-SchoolDayRotation .sd-v1-activity {
+  color: white !important;
+  font-size: clamp(12px, 0.95vw, 16px) !important;
+  font-weight: 700 !important;
+  line-height: 1.18 !important;
+  overflow-wrap: anywhere !important;
+}
+.MMM-SchoolDayRotation .sd-v1-reminder {
+  color: #ffd27b !important;
+  font-size: 11px !important;
+  line-height: 1.2 !important;
+  margin-top: 4px !important;
+}
+.MMM-SchoolDayRotation .sd-v1-date {
+  color: rgba(228, 239, 255, 0.78) !important;
+  font-size: 11px !important;
+  margin-top: 4px !important;
+}
+.MMM-SchoolDayRotation .sd-v1-closed {
+  font-size: 15px !important;
+  padding: 25px 0 !important;
+}
+.MMM-SchoolDayRotation .sd-v1-evening .sd-v1-next {
+  background: rgba(58, 137, 98, 0.1) !important;
+  border-radius: 9px !important;
+}
+.MMM-SchoolDayRotation .sd-v1-card {
+  min-height: 125px !important;
+  padding: 7px 9px !important;
+}
+.MMM-SchoolDayRotation .sd-v1-letter-text {
+  font-size: 37px !important;
+}
+.MMM-SchoolDayRotation .sd-v1-emoji {
+  font-size: 21px !important;
+}
+.MMM-SchoolDayRotation .sd-card {
+  display: block;
+  min-width: 0;
+  width: 380px;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+.MMM-SchoolDayRotation .sd-v1-heading {
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.MMM-SchoolDayRotation .sd-v1-single {
+  grid-template-columns: minmax(0, 1fr) !important;
+}

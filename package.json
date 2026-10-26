@@ -1,0 +1,18 @@
+{
+  "name": "mmm-schooldayrotation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MMM-SchoolDayRotation standalone MagicMirror module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "check": "node scripts/check.cjs",
+    "test": "npm run check && node --test tests/*.test.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuietNodeLab/MMM-SchoolDayRotation.git"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "letters": ["A", "B", "C"],
+  "team": "sample",
+  "anchors": [
+    {
+      "date": "2030-01-07",
+      "letter": "A"
+    }
+  ],
+  "teams": {
+    "sample": {
+      "A": ["Art"],
+      "B": ["Library"],
+      "C": ["Physical Education"]
+    }
+  },
+  "reminders": {
+    "Library": "Bring a book",
+    "Physical Education": "Bring sneakers"
+  },
+  "closed": {
+    "2030-01-09": "Sample closure"
+  },
+  "earlyDismissal": {
+    "2030-01-10": "Early dismissal"
+  },
+  "overrides": {}
+}
